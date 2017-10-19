@@ -3,5 +3,8 @@
 # inherit from ZenOS
 #
 
-BOARD_SEPOLICY_DIRS += \
-    device/zen/sepolicy/common
+BOARD_PLAT_PUBLIC_SEPOLICY_DIR += \
+    device/zen/sepolicy/common/public
+
+BOARD_PLAT_PRIVATE_SEPOLICY_DIR += \
+    device/zen/sepolicy/common/private
