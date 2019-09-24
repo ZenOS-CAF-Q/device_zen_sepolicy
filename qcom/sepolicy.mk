@@ -4,5 +4,4 @@
 #
 
 BOARD_SEPOLICY_DIRS += \
-    device/zen/sepolicy/qcom \
-    device/zen/sepolicy/qcom/$(TARGET_BOARD_PLATFORM)
+    device/zen/sepolicy/qcom/vendor
